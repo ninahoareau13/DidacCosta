@@ -2,6 +2,7 @@ clear all
 
 % ANOMALIES
 
+% Obejtivo: Optimizar programa actual
 % Climatology Salinity WOA 2013
 sal_woa = ncread("C:\Users\Usuario\Desktop\TFM\Datos complementarios\woa13_decav_s00_04.nc", "s_an"); 
 sal_woa = sal_woa(:,:,1); %coger superficie
